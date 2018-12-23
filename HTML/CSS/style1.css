@@ -30,7 +30,7 @@ header {
 }
 
 .main {
-	width: 75%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;	
 }
@@ -76,9 +76,10 @@ p {
 	margin-top: 1px;
 	margin-left: 10px;
 	line-height: 25px;
+	padding-left: 10px;
 }
 
-/*Canvas for Snake game*/
+/*Canvas for game*/
 
 #1stGame{
 	height: 400px;
@@ -86,4 +87,24 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*Right and left divs */
+
+.left {
+	width: 55%;
+	float:left;
+
+}
+.right {
+	width:40%;
+	float:right;
+}
+
+/*image text styling */
+
+.imagetext {
+	font-size: 10px;
+	color:gray;
+}
+
 

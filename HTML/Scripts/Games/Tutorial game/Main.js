@@ -11,3 +11,4 @@ ctx.clearRect(0,0,gameW,gameH);
 let paddle = new Paddle(gameW,gameH);
 
 paddle.draw(ctx);
+

@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width= device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="./CSS/style1.css">
-		<title> My CV </title>
-	</head>
 
-	<body>
-		<header>
-			<h1>Another Developers Homepage</h1>
-		</header>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width= device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./CSS/style1.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./Scripts/Scripts.js"></script>
+	<title> My CV </title>
 
-		<div class="main">
-			<ul class="nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="skills.html">My Skills</a></li>
-				<li><a href="tut.html">Completed Tutorials</a></li>
-				<li><a href="demos.html">Demos</a></li>
-				<li><a href="me.html">About Me</a></li>
-				<li><a class="active" href="cv.html">My CV</a></li>
-			</ul>
-		</div>
-		
-		<div class="main">
+</head>
+
+<body>
+	<header>
+		<h1>Another Developers Homepage</h1>
+	</header>
+
+	<div class="main">
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="skills.html">My Skills</a></li>
+			<li><a href="tut.html">Completed Tutorials</a></li>
+			<li><a href="demos.html">Demos</a></li>
+			<li><a href="me.html">About Me</a></li>
+			<li><a class="active" href="cv.html">My CV</a></li>
+		</ul>
+	</div>
+
+	<div class="main">
+
+		<br />
+		<h3>Select language</h3>
+		<label class="radio-inline">
+			<input type="radio" name="checker" value="English" onclick=onClick(); checked="checked" id="English"> English
+		</label>
+		<label class="radio-inline">
+			<input type="radio" name="checker" value="Suomi" onclick=onClick(); id="Suomi"> Suomi </input>
+		</label>
+		<label class="radio-inline">
+			<input type="radio" name="checker" value="Svenska" onclick=onClick(); id="Svenska"> Svenska </input>
+		</label>
+		<br />
+		<br />
+		<div id="ECV">
 			<embed src="./Resources/CV.pdf" width="100%" height="650px" type="application/pdf">
 		</div>
 
-	</body>
+		<div id="FCV" style="display: none;">
+			<embed src="./Resources/fcv.pdf" width="100%" height="650px" type="application/pdf">
+		</div>
+		<div id="SCV" style="display: none;">
+			<embed src="./Resources/scv.pdf" width="100%" height="650px" type="application/pdf">
+		</div>
+	</div>
+
+
+</body>
 
 </html>
