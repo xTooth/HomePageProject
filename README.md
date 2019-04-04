@@ -1,4 +1,6 @@
 # HomePageProject
 Learning/practise project.
 
-So, instructions in short. Download the repository, open index.html in a browser to run "the site", that should be it. Nothing fancy, just yet.
+So, instructions in short. Download the repository, and for windows in the root of the project run the command: gradlew run. For mac and linux users the same command would be: gradle run.
+
+Url for the page on Heroku : TBA
