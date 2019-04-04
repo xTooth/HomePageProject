@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="./CSS/style1.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title> Demos </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Another Developers Homepage</h1>
+        </header>
+
+        <div class="main">
+            <ul class="nav">
+                <li><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/skills}">My Skills</a></li>
+                <li><a th:href="@{/tut}">Completed Tutorials</a></li>
+                <li><a class="active" th:href="@{/demos}">Demos</a></li>
+                <li><a th:href="@{/me}">About Me</a></li>
+                <li><a th:href="@{/cv}">My CV</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2>Just a little collection of training projects in JS</h2>
+            <br/>
+            <br/>
+            <h5> HEY as you might be able to tell this is very much a work in progress! I'll update this eventually!</h5>
+            <h3>My First JS game</h3>
+            <p>The controls for this are the right and left arrow keys.</p>
+            <canvas id="1stGame"></canvas>
+            <script type="text/javascript" src="Scripts/Scripts.js"></script>
+        </div>
+        <footer>
+        </footer>
+    </body>
+
+</html>

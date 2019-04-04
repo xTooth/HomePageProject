@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">  
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width= device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./CSS/style1.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width= device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="./CSS/style1.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="./Scripts/Scripts.js"></script>
@@ -20,12 +20,12 @@
 
 	<div class="main">
 		<ul class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="skills.html">My Skills</a></li>
-			<li><a href="tut.html">Completed Tutorials</a></li>
-			<li><a href="demos.html">Demos</a></li>
-			<li><a href="me.html">About Me</a></li>
-			<li><a class="active" href="cv.html">My CV</a></li>
+			<li><a th:href="@{/}">Home</a></li>
+			<li><a th:href="@{/skills}">My Skills</a></li>
+			<li><a th:href="@{/tut}">Completed Tutorials</a></li>
+			<li><a th:href="@{/demos}">Demos</a></li>
+			<li><a th:href="@{/me}">About Me</a></li>
+			<li><a class="active" th:href="@{/cv}">My CV</a></li>
 		</ul>
 	</div>
 

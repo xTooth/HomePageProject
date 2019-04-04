@@ -1,1 +1,13 @@
 .DS_Store
+nbproject/project.properties
+.nb-gradle/*
+/.nb-gradle/
+.classpath
+.gradle/
+.project
+.settings/
+.vscode/
+bin/
+build/
+gradle.properties
+.nb-gradle-properties
